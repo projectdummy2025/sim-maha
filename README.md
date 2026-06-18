@@ -4,7 +4,7 @@ SIM-MAHA adalah aplikasi web sederhana yang dirancang untuk mendata dan memonito
 
 ---
 
-## 🛠️ Tech Stack & Arsitektur
+## Tech Stack & Arsitektur
 
 Aplikasi ini dibangun menggunakan arsitektur 3-tier:
 
@@ -36,7 +36,7 @@ Aplikasi ini dibangun menggunakan arsitektur 3-tier:
 
 ---
 
-## 📊 Skema Database (`mahasiswa`)
+## Skema Database (`mahasiswa`)
 
 Tabel `mahasiswa` dibuat secara otomatis ketika backend dijalankan untuk pertama kali (*auto-migration*). Jika database kosong, sistem juga akan otomatis memasukkan data dummy awal (*seeding*).
 
@@ -55,7 +55,7 @@ Tabel `mahasiswa` dibuat secara otomatis ketika backend dijalankan untuk pertama
 
 ---
 
-## 📡 API Endpoints (REST API)
+## API Endpoints (REST API)
 
 | Method | Endpoint | Deskripsi | Parameter Query |
 | :--- | :--- | :--- | :--- |
@@ -82,7 +82,7 @@ Tabel `mahasiswa` dibuat secara otomatis ketika backend dijalankan untuk pertama
 
 ---
 
-## 🚀 Petunjuk Setup & Instalasi
+## Petunjuk Setup & Instalasi
 
 ### Prasyarat
 Pastikan Anda sudah menginstal alat berikut di sistem Anda:
@@ -133,7 +133,7 @@ podman-compose up -d
 
 ---
 
-## ✨ Fitur Utama Antarmuka
+## Fitur Utama Antarmuka
 
 1. **Dashboard Widgets**:
    - Total Mahasiswa & Negara Tujuan yang ter-update secara dinamis.
